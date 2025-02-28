@@ -1,0 +1,706 @@
+body{
+     width: 100%;
+     margin: 0px;
+     padding: 0px;
+     font-family: sans-serif;
+     position: absolute;
+     left: 0px;
+     right: 0px;
+}
+
+/* Le navbar */
+
+nav {
+     margin-right: 100px;
+     background-color: rgb(9, 21, 77);
+     width: 100%;
+}
+
+nav a{
+     text-decoration: none;
+     color: white;
+     font-weight: 800;  
+}
+
+nav a:hover{
+
+     color:#f7a50e;
+}
+
+nav li{
+
+     display: inline-block;
+     padding: 0px 10px;
+     padding-right: 60px;
+     margin: 20px 0px;
+}
+
+.div_li {
+
+     float: right;
+}
+
+nav ul{
+     
+     height: 60px;
+     margin: 0px;
+     width: 100%;
+     
+}
+
+
+.section1{
+     width: 100%;
+     height: 600px;
+     background-repeat: round;
+     background-size:cover;
+     background-image: url(f255fce3425b8d274e73cf92d7a885e5.jpg);
+    
+}
+.section1 h1{
+     color: #fff;
+     font-size: 100px;
+     padding-top: 150px;
+     margin: 0px;
+     text-align: center;
+     font-style:italic;
+     position: relative;
+     font-weight: 600;
+     
+}
+
+.div1{
+     text-align: center;
+}
+
+
+.div1 h1 {
+     text-transform: capitalize;
+     font-weight: 900;
+     color: #000;
+     font-size: 40px;
+     width: 100%;
+}
+
+.div1 p{
+
+     font-style: oblique;
+     color: #000;
+    font-size: 18px;
+    width: 50%;
+    margin: auto;
+}
+
+.div2 {
+     display: inline-block;
+     margin: 05px;
+     
+}
+
+.div2 input{
+     border: 4px solid rgb(224, 233, 233);
+     width: 350px;
+     height: 30px;
+     background-color: rgb(224, 233, 233);  
+     outline: none;
+}
+
+.div2 label {
+     color: black;
+     float: left;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.div2 textarea{
+     border: 4px solid rgb(224, 233, 233);
+     width: 725px;
+     height: 60px;
+     background-color: rgb(224, 233, 233);  
+     outline: none;
+     resize: none;
+}
+
+.btn1 {
+     width: 200px;
+     height: 45px;
+     background-color: rgb(20, 255, 50);
+     text-transform: capitalize;
+     font-size: 20px;
+     font-weight: 600;
+     border: 1px solid rgb(224, 233, 233);
+}
+
+.btn1:hover{
+     border: 4px solid rgb(207, 221, 221);
+}
+
+.div3 {
+     text-align: center;
+     border: 4px solid rgb(211, 241, 211);
+     padding: 20px;
+     background-color: rgb(211, 241, 211);
+}
+
+.div3 h1 {
+     text-transform: capitalize;
+     font-weight: 900;
+     color: #000;
+     font-size: 40px;
+     width: 100%;
+}
+.div3 p{
+     color: #000;
+     font-style: oblique;
+     font-weight: 500;
+}
+
+
+.section2 {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     align-items: center;
+     margin-bottom: 200px;
+     width: 100%;
+}
+.section2 h1{
+     text-transform: capitalize;
+     text-decoration: underline;
+     text-align: center;
+     font-weight: 900;
+     color: #000;
+     font-size: 45px;
+     width: 100%;
+}
+.div4{
+    padding: 10px;
+    float: left;
+    width: 50%;
+}
+
+.div4 img {
+     margin: 10px 90px;
+     display: block;
+     height: 300px;
+     width: auto;
+     border: 1px solid white;
+     border-radius: 100%;
+
+}
+
+.div4 img:hover {
+     
+     height: 320px;
+     width: auto;
+     transition: 1.5s;
+     border: 1px solid white;
+     border-radius: 100%;
+
+}
+
+.div4 p{
+     margin: 20px;
+     font-style: oblique;
+     width: 60%;
+     font-size: 20px;
+     text-align: center;
+     
+}
+
+.div5{
+     width: 45%;
+}
+
+ .div5 .input1{
+     border: 4px solid rgb(224, 233, 233);
+     width: 300px;
+     height: 35px;
+     background-color: rgb(224, 233, 233);  
+     float: left;
+     margin-left: 40px;
+     outline: none;
+     display: block;
+}
+.div5 .btn2{
+     width: 150px;
+     height: 45px;
+     border: 1px solid rgb(224, 233, 233);
+     background-color: rgb(20, 255, 50);
+     text-transform: capitalize;
+     font-size: 18px;
+     font-weight: 600;
+     margin-left: 10px;
+    
+     
+}
+
+.div5 .btn2:hover{
+     border: 4px solid rgb(207, 221, 221);
+}
+
+
+
+.div5 h2{
+     font-style: italic;
+     width: 90%;
+     font-size: 20px;
+     text-align: start;
+     font-weight: 600;
+     padding: 20px;
+}
+
+.div5 p{
+     padding: 20px;
+     font-style: oblique;
+     width: 90%;
+     font-size: 20px;
+     text-align: start;
+
+}
+
+footer{
+     background-color: black;
+     width: 100%;
+     height: 400px;
+     position: relative; 
+     margin-bottom: 0px;
+     padding-top: 80px;
+     
+    
+     
+}
+footer p{
+     color: white;
+     position: relative;
+     text-align: center;
+     line-height: 50px;
+     word-spacing: 03px; 
+     font-size: 20px;
+}
+
+footer a{
+     font-weight: 500;
+     text-decoration: none;
+     color: darkorange;
+}
+
+
+
+/* LA RESPONSIVE AVEC LES MEDIA QUERY */
+
+
+/* Lorsque la largeur maximale de l'écran est de 720px  */
+
+@media screen and (max-width: 720px) {
+
+
+     nav {
+
+          margin-bottom: -20px;
+          padding-top: 20px;
+          
+     }
+     
+     nav a{
+
+          font-weight: 500;
+          font-size: 14px;  
+          
+     }
+     
+     nav li{
+
+          display: inline;
+          padding: 3px;
+     }
+     
+     .div_li{
+          float: none ;
+     }
+
+
+     .section1{
+          width: 100%;
+          height: 300px;
+          display: block;
+          justify-content: center;
+          align-items: center;
+          background-repeat: round;
+          background-size:100%;
+     }     
+
+     .section1 h1{
+          font-size: 40px;
+          text-align: center;
+          margin: auto;
+          position: relative;
+          padding-top: 110px;
+          font-weight: 600;
+          width: 100%;
+     }
+
+     .div1{
+          display: block;
+          justify-content: center;
+          align-items: center;
+     }
+     
+     .div1 h1 {
+          font-size: 16px;
+     }
+
+     .div1 p{
+          font-size: 15px;
+          margin: auto 10px;
+          width: auto;
+          text-transform: none;
+     }
+
+     .div2 input {
+          width: 300px;
+     }
+
+     .div2 textarea {
+          width:300px;
+     }
+
+     .div2 label {
+         font-size: 16px;
+     }
+
+     .btn1 {
+          width: 150px;
+          height: 40px;
+          font-size: 18px;
+          font-weight: 700;
+          border-radius: 8px;
+          display: block;
+          margin: 12px auto;
+     }
+
+     .div3 {
+          padding:10px;       
+     }
+
+     .div3 h1 {
+          font-size: 20px;
+          width: 100%;
+     }
+
+     .div3 p{
+          font-style: oblique;
+          font-weight: 500;
+          margin: auto;
+          padding: 10px;
+     }
+
+     .div3 h3 {
+          padding:0px 10px;
+          font-size: 15px;
+     }
+
+     .section2 {
+          margin-bottom: 100px;
+          display: block;
+          justify-content: center;
+          align-items: center;
+     }
+
+     .section2 h1{
+          font-size: 25px;
+          text-decoration: underline;
+     }
+
+     .div4{
+          padding: 10px;
+          float:none;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+          margin: auto;
+          width: 95%;
+      }
+
+
+      .div4 img {
+          height: 250px;
+     }
+
+     .div4 img:hover {
+     
+          height: 270px;
+          width: auto;
+          transition: 1s;
+          border-radius: 100%;
+     
+     }
+
+     .div4 p{
+          width: 95%;
+          font-size: 15px;
+          padding: 0px 15px;
+          margin: auto;
+     }
+     
+
+     .div5 .input1{
+          width: 300px;  
+          float: none;
+          margin: auto;
+          text-align: center;
+     }
+
+     .div5 .btn2{
+          float: none;
+          width: 150px;
+          height: 40px;
+          font-size: 18px;
+          display: block;
+          font-weight: 700;
+          border-radius: 8px;
+          margin: 12px auto;
+     }
+
+     .div5{
+          width: 100%;
+     }
+
+     .div5 h2{
+
+          width: 90%;
+          font-size: 15px;
+          text-align: center;
+          margin: auto;
+          
+     }
+
+     .div5 p{
+          width: 85%;
+          font-size: 15px;
+          text-align: center;
+          margin: 15px auto;
+     }
+     
+     
+     footer{
+          height: 300px;
+          display: block;
+          justify-content: center;
+          align-items: center;
+          padding-top: 40px;
+     }
+
+     footer p{
+          line-height: 50px;
+          word-spacing: 0px; 
+          margin: 8px auto;
+          font-size: 12px;
+          padding: 0px 10px;
+     }
+     
+}
+
+
+
+/* Lorsque la taille de l'écran est conprise enrte 721px et 1279px  */
+@media screen and (min-width: 721px) and (max-width: 1580px) {
+
+
+     .section1{
+          width: 100%;
+          height: 400px;
+          display: block;
+          justify-content: center;
+          align-items: center;
+          background-repeat: round;
+          background-size:100%;
+     }     
+
+     .section1 h1{
+          font-size: 60px;
+          text-align: center;
+          margin: auto;
+          position: relative;
+          padding-top: 110px;
+          font-weight: 600;
+          width: 100%;
+     }
+
+     .div1{
+          display: block;
+          justify-content: center;
+          align-items: center;
+     }
+     
+     .div1 h1 {
+          
+          font-size: 16px;
+     }
+
+     .div1 p{
+
+          font-size: 15px;
+          margin: auto 10px;
+          width: 80%;
+          margin: auto;
+          text-transform: none;
+     }
+
+     .div2 input {
+          margin: 5px 10px;
+          width: 300px;
+     }
+
+     .div2 textarea {
+          margin: 5px 10px;
+          width:650px;
+     }
+
+     .div2 label {
+          position: relative;
+          left: 10px;
+         font-size: 16px;
+     }
+
+     .btn1 {
+          width: 150px;
+          height: 40px;
+          font-size: 18px;
+          font-weight: 700;
+          border-radius: 8px;
+          display: block;
+          margin: 12px auto;
+     }
+
+     .div3 {
+          padding:10px;       
+     }
+
+     .div3 h1 {
+          font-size: 30px;
+          width: 100%;
+     }
+
+
+     .div3 h3 {
+          padding:0px 10px;
+          font-size: 20px;
+          margin: auto;
+     }
+
+     .div3 p{
+          font-style: oblique;
+          font-size: 20px;
+          font-weight: 500;
+          margin: auto;
+          padding: 10px;
+     }
+
+     .section2 {
+          margin-bottom: 100px;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          align-items: center;
+          width: 100%;
+          margin: 20px 0px;
+     }
+
+     .section2 h1{
+          font-size: 40px;
+          text-decoration: underline;
+     }
+
+     .div4{
+          padding: 10px;
+          float:left;
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          margin: auto;
+          width: 48%;
+      }
+
+
+      .div4 img {
+          margin: 0px  20px;
+          height: 300px;
+          margin: 0px 70px;
+     }
+
+     .div4 img:hover {
+     
+          height: 280px;
+          width: auto;
+          transition: 1s;
+          border-radius: 100%;
+     
+     }
+
+     .div4 p{
+          width: 80%;
+          font-size: 15px;
+          padding: 5px 0px;
+
+     }
+     
+     .div5{
+          width: 48%;
+          
+     }
+
+     .div5 .input1{
+          width: 300px;  
+          float: none;
+          margin: auto;
+     }
+
+     .div5 .btn2{
+          float: none;
+          width: 150px;
+          height: 40px;
+          font-size: 18px;
+          font-weight: 700;
+          border-radius: 8px;
+          margin: 12px auto;
+          display: block;
+     }
+
+     .div5 h2{
+          padding:15px 0px;
+          width: 85%;
+          font-size: 15px;
+          text-align: center;
+          margin: auto;
+          
+     }
+
+     .div5 p{
+          padding:15px 0px;
+          width: 85%;
+          font-size: 15px;
+          text-align: center;
+          margin: 15px auto;
+     }
+     
+     
+     footer{
+          height: 300px;
+          display: block;
+          justify-content: center;
+          align-items: center;
+          padding-top: 70px;
+     }
+
+     footer p{
+          line-height: 60px;
+          word-spacing: 01px; 
+          margin: 8px auto;
+          font-size: 18px;
+          padding: 0px 10px;
+     }
+
+     
+}
