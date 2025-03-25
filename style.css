@@ -14,8 +14,10 @@
 }
 
 html {
-     scroll-padding-top: 60px ;
-     scroll-behavior: smooth;
+     
+     scroll-padding-top: 60px ;  /* Pour que le titre reste visible après un scroll*/
+     scroll-behavior: smooth; /* Pour une transition fluide lors du défilement*/
+
 }
 /* Le navbar */
 
@@ -29,7 +31,7 @@ nav {
      z-index: 1;
      width: 100%;
      height: 60px;
-}
+}    
 
 nav a{
      text-decoration: none;
