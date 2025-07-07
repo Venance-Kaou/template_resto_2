@@ -1,125 +1,146 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>template_resto_2</title>
-     <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Restaurant de fruits de mer au cœur du centre-ville - Saveurs authentiques de l'océan">
+    <title>Restaurant Océan - Saveurs Marines</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="Navigation principale">
+        <div class="nav-container">
+            <div class="nav-menu">
+                <a href="#apropos" class="nav-link">À propos</a>
+                <a href="#service" class="nav-link">Service</a>
+                <a href="#experience" class="nav-link">Expérience</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
 
-     <nav>
-          <ul>
-               <div class="div_li">
-                    <li><a href="#apropos">A propos </a></li>
-                    <li><a href="#service"> Service </a></li>
-                    <li><a href="#experience"> Expérience </a></li>
-                    <li><a href="#contact"> Contact </a></li>
-               </div>             
-          </ul>
-     </nav>
+    <!-- Hero Section -->
+    <section class="hero" id="accueil">
+        <div class="hero-content">
+            <h1 class="hero-title">Soyez les Bienvenus</h1>
+        </div>
+    </section>
 
-        <section class="section1" >
-          
-               <h1> SOYEZ LES BIENVENUES </h1>
-
-     </section > <br>
-
-
-          <div class="div1" id="service" >
-               <h1  >AVEZ-VOUS DES QUESTIONS </h1>
-               <P>Vous voulez en savoir plus sur l'un de nos ingrédients ou fournisseur ? 
-                    Ou peut-être voulez-vous dire simplement hola ? Envoyez un message ci-dessous 
-                    vous répondrons immédiatement.
-               </P><br>
-               
-               <form action="" method="POST">
-     
-                         
-                         <div class="div2">
-
-                              <label for="name" > Email</label><br>
-                              <input type="text" id="name" placeholder="Enter a valid email address">
-               
-                         </div>
-
-                         <div class="div2">
-                             
-                              <label for="prenom" >Name</label><br>
-                              <input type="text" id="prenom" placeholder="Enter your name">
-                         
-                         </div> <br>
-
-                         <div class="div2">
-
-                              <label for="message" > Messages </label><br>    
-                              <textarea name="message" id="message" cols="50" rows="" placeholder="Enter your message"></textarea><br>
-                        
-                         </div>
-                    
-                         <input type="submit" value="SOUMETTRE" class="btn1" ><br>
-               </form><br><br>
-
-          </div>
-
-          <div class="div3" id="apropos">
-                    <h1>NOUS SOMMES OUVERTS</h1>
-                    <P>Nous vous apportons la saveur de l'océan, mais sommes situés au coeur du centre-ville</P>
-                    <h3>Liaison dans un rayon de 25km dans toutes les directions.</h3>
-                    <p>Du lundi au mercredi de 9h00 à 17h00</p>
-                    <p> Jeudi-Vendredi de 9h00 à 20h30</p>
-                    <p>Samedi de 9h00 à 22h00</p>
-                    <p>Dimanche fermé</p>
-          </div>
-
-          <section class="section2" id="contact">
-
-                    <h1>CONTACTS</h1>
-    
-                         <div class="div4">
-                              
-                              <img src="FB_IMG_16731899455482411.jpg" alt="A delecious dish">      
-                         
-                              <p> Utilisez notre formulaire de contact pour toute demande d'informations
-                                   ou contactez-nous directement grâce aux coordonnées ci-dessous.
-                              </p>
-
-                         </div>
-                                              
-                    <div class="div5">
-
-                         <h2>ENREGUSTREZ-VOUS POUR RECEVOIR LE BULLETIN D'INFORMATONS</h2>
-                              <p>Voulez-vous être le premier à lire nos actualités? 
-                                   Abonnez-vous à la newsletter pour être tenu au courant de tous les événements.</p>
-                              
-                                   <form action="" method="post">
-                                       
-                                             <input type="text" placeholder="Enter a valid email address" class="input1">
-                                             <input type="submit" value="SOUMETTRE" class="btn2" ><br>
-                                        
-                                   </form>
-                         
+    <!-- Service Section -->
+    <section class="service-section" id="service">
+        <div class="container">
+            <h2 class="section-title">Avez-vous des questions ?</h2>
+            <p class="section-description">
+                Vous voulez en savoir plus sur l'un de nos ingrédients ou fournisseurs ? 
+                Ou peut-être voulez-vous simplement dire bonjour ? Envoyez-nous un message ci-dessous, 
+                nous vous répondrons immédiatement.
+            </p>
+            
+            <form class="contact-form" action="#">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Entrez votre adresse email" required>
                     </div>
-          </section>  
+                    <div class="form-group">
+                        <label for="name">Nom</label>
+                        <input type="text" id="name" name="name" placeholder="Entrez votre nom" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Entrez votre message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Soumettre</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="apropos">
+        <div class="container">
+            <h2 class="section-title">Nous sommes ouverts</h2>
+            <p class="section-description">
+                Nous vous apportons la saveur de l'océan, situés au cœur du centre-ville
+            </p>
+            <h3 class="delivery-info">Livraison dans un rayon de 25km dans toutes les directions</h3>
+            
+            <div class="hours-grid">
+                <div class="hours-item">
+                    <span class="day">Lundi - Mercredi</span>
+                    <span class="time">9h00 - 17h00</span>
+                </div>
+                <div class="hours-item">
+                    <span class="day">Jeudi - Vendredi</span>
+                    <span class="time">9h00 - 20h30</span>
+                </div>
+                <div class="hours-item">
+                    <span class="day">Samedi</span>
+                    <span class="time">9h00 - 22h00</span>
+                </div>
+                <div class="hours-item">
+                    <span class="day">Dimanche</span>
+                    <span class="time">Fermé</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contacts</h2>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-image">
+                        <img src="FB_IMG_16731899455482411.jpg" alt="Plat délicieux du restaurant">
+                    </div>
+                    <p class="contact-description">
+                        Utilisez notre formulaire de contact pour toute demande d'informations
+                        ou contactez-nous directement grâce aux coordonnées ci-dessous.
+                    </p>
+                </div>
+                
+                <div class="newsletter">
+                    <h3 class="newsletter-title">Inscrivez-vous pour recevoir le bulletin d'informations</h3>
+                    <p class="newsletter-description">
+                        Voulez-vous être le premier à lire nos actualités ? 
+                        Abonnez-vous à la newsletter pour être tenu au courant de tous les événements.
+                    </p>
                     
+                    <form class="newsletter-form" action="#" method="POST">
+                        <div class="newsletter-input-group">
+                            <input type="email" name="newsletter-email" placeholder="Entrez votre adresse email" required>
+                            <button type="submit" class="btn btn-secondary">S'abonner</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
-         <div>
-               <footer id="experience">
-                         <p> N'hésitez pas à adapter ce site à vos projets. </p>
-                         <p>
-                              <a href="##"> Free Website Template </a> made with <a href="##"> HTML5 and CSS3 </a>
-                         </p>
-
-                         <p > 
-                              Made by <a href="https://www.linkedin.com/in/venance-kaou-387624325"> Venance Kaou </a> , copyright 2024 <br>
-                              <a href="https://www.facebook.com/profile.php?id=100093016422694"> Facebook </a> &lt; = &gt; 
-                              <a href="https://www.youtube.com/@Venance_Kaou"> YouTube </a> &lt; = &gt;
-                              <a href="mailto:nance.contact@gmail.com"> Gmail </a>
-                         </p>
-                              
-               </footer>
-          </div>
-          
-
+    <!-- Footer -->
+    <footer class="footer" id="experience">
+        <div class="container">
+            <div class="footer-content">
+                <p>N'hésitez pas à adapter ce site à vos projets.</p>
+                <p>
+                    <a href="#" class="footer-link">Template de site web gratuit</a> 
+                    créé avec <a href="#" class="footer-link">HTML5 et CSS3</a>
+                </p>
+                <p class="footer-credits">
+                    Créé par <a href="https://www.linkedin.com/in/venance-kaou-387624325" class="footer-link">Venance Kaou</a>, 
+                    copyright 2024
+                </p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/profile.php?id=100093016422694" class="social-link">Facebook</a>
+                    <a href="https://www.youtube.com/@Venance_Kaou" class="social-link">YouTube</a>
+                    <a href="mailto:venancekaou1@gmail.com" class="social-link">Gmail</a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
