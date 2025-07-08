@@ -11,7 +11,8 @@
     <!-- Navigation -->
     <nav class="navbar" role="navigation" aria-label="Navigation principale">
         <div class="nav-container">
-            <div class="nav-menu">
+            <div class="menu-toggle" id="mobile-menu">&#9776;</div> <!-- ☰ -->
+            <div class="nav-menu" id="nav-links">
                 <a href="#apropos" class="nav-link">À propos</a>
                 <a href="#service" class="nav-link">Service</a>
                 <a href="#experience" class="nav-link">Expérience</a>
@@ -19,6 +20,7 @@
             </div>
         </div>
     </nav>
+
 
     <!-- Hero Section -->
     <section class="hero" id="accueil">
@@ -142,5 +144,23 @@
             </div>
         </div>
     </footer>
+    <script>
+        const menuToggle = document.getElementById('mobile-menu');
+        const navMenu = document.getElementById('nav-links');
+        const navLinks = document.querySelectorAll('.nav-link');
+
+        // Ouvrir / Fermer menu
+        menuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+
+        // Fermer le menu quand on clique sur un lien
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+            navMenu.classList.remove('active');
+            });
+        });
+</script>
+
 </body>
 </html>
